@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Breaking Bad – Que comience el juego!</title>
+</head>
+<body class="fondo">
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on" target="_blank">
+        <fieldset>
+            <legend id="titulo-formulario">Breaking Bad - Que comience el juego!</legend>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                Nombre:
+                <br><input class="caja" type="text" name="Nombre" required>
+                <br>Apellidos:
+                <br><input class="caja" type="text" name="Apellido" required>
+                <br>DNI:
+                <br><input class="caja" type="text" name="DNI">
+                <br>Correo Electronico:
+                <br><input class="caja" type="email" name="Correo" required>
+            </fieldset>
+            <fieldset>
+                <legend>Direccion Postal</legend>
+                Calle:
+                <br><input class="caja" type="text" name="Calle">
+                <br>Número:
+                <br><input class="caja" type="number" name="Número">
+                <br>Piso: 
+                <br><input class="caja" type="text" name="Piso">
+                <br>Código Postal:
+                <br><input class="caja" type="number" name="CódigoPostal">
+                <br>Ciudad:
+                <br><input class="caja" type="text" name="Ciudad">
+            </fieldset>
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="Sexo" value="Hombre">Hombre
+                <br><input type="radio" name="Sexo" value="Mujer">Mujer
+            </fieldset>
+            <fieldset>
+                <legend>Fecha de nacimiento</legend>
+                Selecciona tu fecha de nacimiento: <input class="caja" type="date" name="FechaNacimiento">
+            </fieldset>
+            <fieldset>
+                <legend>Personaje favorito</legend>
+                Selecciona tu personaje favorito: <select name="Personaje" class="caja">
+                    <option value="1">Jessie Pinkman</option>
+                    <option value="2">Walter White</option>
+                    <option value="3">Saul Goodman</option>
+                    <option value="4">Gustavo Fring</option>
+                    <option value="5">Pollos Hermanos</option>
+                    <option value="6">Otro</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios</legend>
+                Comenta tu opinion <textarea class="caja" name="Opinion" 
+                placeholder="Escribe aqui tu opinion sobre la serie" maxlength="240" rows="4" cols="50"></textarea>
+            </fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <input type="file" name="Subir Archivos"multiple>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
